@@ -76,7 +76,7 @@ class Character
         $return = <<<EOF
 ---
 collection: characters
-layout: post\r
+layout: post
 title: {$this->name}
 path: {$this->id}.md
 ---
