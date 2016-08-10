@@ -1,0 +1,26 @@
+{
+    "name": "larry/lingao",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Larry Li",
+            "email": "larryli@qq.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "*",
+        "symfony/finder": "*",
+        "symfony/yaml": "*",
+        "symfony/var-dumper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "larryli\\lingao\\": ""
+        }
+    },
+    "bin": [
+        "lingao"
+    ]
+}
